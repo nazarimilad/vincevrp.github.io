@@ -8,18 +8,28 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 5rem;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
-h1 {
-  font-size: inherit;
+.container {
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+figcaption h2 {
+  font-size: 3rem;
 }
 
 img {
   display: block;
   position: relative;
-  margin: 0.5em auto;
+  margin: 0.5em 0.5em 0 0.5em;
 }
 
 a {
@@ -30,5 +40,5 @@ a:hover {
 }
 
 i {
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
